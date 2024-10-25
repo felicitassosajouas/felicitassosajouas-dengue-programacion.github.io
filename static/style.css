@@ -1,0 +1,22 @@
+body {
+    background: #ffffff;
+}
+.graph{
+    color: white;
+    text-align: center;
+}
+.chart-container {
+    width: 50%; 
+    margin: auto;
+}
+
+#myChart {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.fondo{
+    border: 3px solid black;
+    width: 350px;
+    height: 350px;
+}

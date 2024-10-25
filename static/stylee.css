@@ -1,0 +1,28 @@
+/* Archivo: static/css/style.css */
+
+body {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+}
+
+.container {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #dee2e6; /* Borde claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espacio interno */
+    margin-top: 20px; /* Espacio superior */
+}
+
+footer {
+    background-color: #343a40; /* Fondo oscuro para el pie de página */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 0; /* Espacio interno vertical */
+    position: fixed; /* Fijar en la parte inferior */
+    bottom: 0; /* Posición en la parte inferior */
+    width: 100%; /* Ancho completo */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+}

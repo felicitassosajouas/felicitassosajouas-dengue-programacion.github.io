@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Color del texto en blanco para mayor contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chart-container {
+    width: 80%; /* Ajuste del ancho del contenedor */
+    max-width: 600px; /* Máximo ancho */
+    margin: 0 auto;
+    padding: 20px;
+    background: #333; /* Fondo gris oscuro para el contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.chart-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff; /* Color del texto */
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+    background-color: #000; /* Fondo negro para el gráfico */
+}
+
+.btn {
+    margin-top: 20px;
+}
+
